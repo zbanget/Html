@@ -4,7 +4,6 @@
 body{margin:0;padding:0;font-family:Roboto,Arial,sans-serif}
 .shorten-box{font-size:100%;font-weight:500;color:#666!important;margin:0}
 #output{display:inline-block;}
-.shorten-text{display:inline-block;color:#141924;margin-right:5px;border:1px solid transparent;line-height:1;padding:5px 0;}
 #foo{display:inline-block;background:#f8f8f8;border:1px solid #d5d5d5;border-radius:3px;padding:5px 8px;margin:0;box-shadow: inset 0px 0px 1px rgba(0,0,0,.08);font-family:Consolas,Monaco,'Andale Mono',monospace;font-size:14px;white-space:initial;word-spacing:normal;word-break:normal;hyphens:none;color:#000;cursor:pointer;line-height:1;}
 .clear{clear:both}
 #output{position:relative}
@@ -29,7 +28,6 @@ button.btn {
   vertical-align: middle;
   cursor: pointer;
   background-color: #eee;
-  background-image: linear-gradient(#fcfcfc, #eee);
   border: 1px solid #d5d5d5;
   border-radius:0 3px 3px 0;
   -webkit-user-select: none;
@@ -135,7 +133,6 @@ function getQueryVariable(variable) {
 
 <div class='shorten-box'>
 <script>document.write('<input value="'+ urls +'" id="longurl" name="url" type="hidden"/> '); </script>
-<div class='shorten-text'>Share this with short URL:</div>
 <div id='output'></div>
 <div class='clear'></div>
   </div>
